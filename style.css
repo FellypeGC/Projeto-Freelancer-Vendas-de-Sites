@@ -8,20 +8,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(224, 224, 228);
 }
 
 header {
-    padding: 80px;
-    background-color: rgb(25, 45, 230);
-    min-height: 150px;
-    color: #fff;
-    font-size: 1.5rem;
-    text-align: center;
     display: flex;
-    flex-direction: row;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 45, 230);
+    color: #fff;
 }
 
 header img {
@@ -30,23 +27,20 @@ header img {
 }
 
 header h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Intel';
+    font-size: 1.8rem;
     text-shadow: 3px 0px 4px rgba(0, 0, 0, 0.534);
+    padding-left: 0px;
 }
 
 main {
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 1800px;
     background-color: #fff;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
     box-shadow: 0px 0px 10px black;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 footer {
