@@ -43,7 +43,7 @@ header h1 {
     padding-left: 0px;
 }
 
-span {
+span.header {
     width: 300px;
     background-color: #fff;
     color: #192DE6;
@@ -84,26 +84,49 @@ main section .container {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 350px;
-    border: 1px solid black;
+    height: 390px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.247);
     border-radius: 5px;
 }
 
-section {
+.container {
+    display: flex;
+    align-items: center;
+}
+
+section h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    position: relative;
-    margin-left: 50px;
+    padding: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h1 ul li p {
     text-align: center;
 }
 
-::marker {
-    align-items: center;
+li {
+    padding: 4px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container p {
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.promo {
+    font-size: 20px;
+    padding: 9px;
+    text-decoration: line-through;
 }
 
 footer {
