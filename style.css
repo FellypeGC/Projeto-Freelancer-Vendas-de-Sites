@@ -1,8 +1,15 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: 'Intel';
     src: url('/fontes/intelone-display-medium.ttf');
 }
+
+@font-face {
+    font-family: 'Eurostile';
+    src: url('/fontes/Eurostile.ttf');
+}
+
 
 * {
     padding: 0;
@@ -59,7 +66,44 @@ main {
 }
 
 main h1 {
-    font
+    display: flex;
+    font-family: 'eurostile-extended-bold', sans-serif;;
+    text-align: center;
+    width: 650px;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+main section {
+    display: flex;
+    margin-top: 3rem;
+}
+
+main section .container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-left: 50px;
+}
+
+h1 ul li p {
+    text-align: center;
+}
+
+::marker {
+    align-items: center;
 }
 
 footer {
