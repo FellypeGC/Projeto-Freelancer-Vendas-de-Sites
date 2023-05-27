@@ -148,6 +148,7 @@ li {
     cursor: pointer;
     padding: 20px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 footer {
