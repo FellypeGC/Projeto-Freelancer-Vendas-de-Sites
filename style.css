@@ -75,19 +75,26 @@ main h1 {
     font-weight: bolder;
 }
 
+hr {
+    width: 80%;
+    margin: 6px;
+}
+
 main section {
     display: flex;
     margin-top: 3rem;
+    justify-content: center;
 }
 
 main section .container {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 390px;
+    height: 420px;
     border: 1px solid rgba(0, 0, 0, 0.445);
     box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.247);
     border-radius: 5px;
+    padding: 20px;
 }
 
 .container {
@@ -100,13 +107,15 @@ section h1 {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    padding: 5rem;
+    padding: 2.5rem 5rem;
     margin-top: 0;
     margin-bottom: 0;
 }
 
+
 h1 ul li p {
     text-align: center;
+    
 }
 
 li {
@@ -127,6 +136,18 @@ li {
     font-size: 20px;
     padding: 9px;
     text-decoration: line-through;
+}
+
+.btn {
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(14, 179, 14);
+    margin: 1.2rem;
+    cursor: pointer;
+    padding: 20px;
+    font-weight: bold;
 }
 
 footer {
